@@ -20,10 +20,10 @@ h1 {
   min-width: 800px;
   margin: 0;
   position: relative;
-  top: 0;
-  left: 0;
   display: flex;
   align-items: start;
+  font-family: 'Raleway', 'Arial', 'Helvetica', sans-serif;
+  font-style: normal;
 }
 
 .page:before {
@@ -40,8 +40,6 @@ h1 {
 }
 
 .page__heading {
-  font-family: Raleway;
-  font-style: normal;
   font-weight: 800;
   font-size: 116px;
   line-height: 136px;
@@ -56,6 +54,7 @@ h1 {
 
 .page__heading:hover {
   z-index: auto;
+  cursor: default;
 }
 
 .page__heading::after {
@@ -68,8 +67,6 @@ h1 {
   top: 182px;
   right: 22px;
   white-space: pre;
-  font-family: Raleway;
-  font-style: normal;
   font-weight: 400;
   font-size: 35px;
   line-height: 35px;
@@ -78,8 +75,8 @@ h1 {
   text-align: left;
   background: #ffffff;
   border: 2px solid #000000;
-  border-bottom: 14px solid #000000;
   border-radius: 20px;
+  box-shadow: 0 14px #000000;
   padding: 36px 44px;
   z-index: 3;
 }
